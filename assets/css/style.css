@@ -1,0 +1,52 @@
+body {
+	background-color: black;
+    background-image: url("../images/batmanBG.jpg");
+}
+
+button {
+	width: 50%;
+	height: 75px;
+	margin: 0 25%;
+	float: left;
+	background-color: yellow;
+	color: black;
+	border: dotted black;
+	font-family: 'Aldrich', sans-serif;
+}
+
+button.answerchoice {
+	display: none;
+}
+
+button:hover {
+	background-color: black;
+	color: yellow;
+	border: dotted yellow;
+	font-family: 'Aldrich', sans-serif;
+}
+
+/*.batdiv div { 
+	background-image: url('../images/batlogo.png');
+	width: 600px;
+	height: 0 auto;
+*/
+}
+
+.answers div {
+	padding: 50px;
+	margin: 0 auto;
+	font-family: 'Aldrich', sans-serif;
+}
+
+img {
+	color:yellow;
+	height: 50px;
+	width: 0 auto;
+}
+
+h1, h2, h3, h4, .question {
+	margin: 0 auto;
+	text-align: center;
+	color: yellow;
+	font-family: 'Aldrich', sans-serif;
+}
